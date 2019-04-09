@@ -1,0 +1,86 @@
+TEST FROM SECOND TRAIN OF MODEL 
+INPUT TEXT:
+So, given the evidence indicating that gender diversity is associated with improved decision making and problem solving and increased sales and profits, and the obvious potential for critical skills shortages if one gender is excluded, it is not surprising that various strategies have been suggested for rectifying such imbalances. Previous approaches have ranged from various forms of positive discrimination, through specific types of advertising and re-education, to simply adopting more gender-fair language. However, when it is not clear what are the main causes underlying the imbalances, it can be difficult to identify the best strategies for dealing with them and measuring their effect, and there is also a persistent worry that adopting particular intervention strategies predicated on incorrect assumptions might actually make matters worse rather than better. It is often claimed that the main cause of gender imbalance is simple discrimination against a particular gender, and if that cannot be prevented, an appropriate remedy would be some form of positive discrimination. However, other studies indicate that, in some cases at least, there is no such bias in the hiring processes. Another potential cause of imbalance might be that evolution by natural selection has led to different genders becoming specialized for different roles, and hence intrinsically more able or less able in particular areas. It is undoubtedly true that there exists significant gender-based physical differences for many species, such as human men being bigger and stronger on average than human women, but associated differences in intellectual abilities are more controversial. In particular, there is conflicting evidence concerning gender-based brain-related ability differences in humans, and their potential impact on gender inequalities in professions such as computer science . With fair performance-led hiring and promotion, any such ability differences leading to inferior performance would inevitably result in less success in any professions that rely on those skills, and that could drive a consequent tendency for that gender to avoid entering related professions in the future. In fact, even when both genders have equal average abilities, differences in the tails of the ability distributions can be sufficient to drive significant gender imbalances. Moreover, even when there are no intrinsic ability differences at birth, there could still be cultural factors that lead to ability differences in adults, such as those arising from biases in the education system. It is not at all clear what interventions would be most beneficial for particular types of ability difference, nor whether any intervention at all would be a sensible strategy. A final possibility is that, even when there is no direct discrimination, and no ability differences in the chosen area, one gender might still be disadvantaged by other factors, such as delays in career progression related to child rearing and maternity leave, and such causes of gender imbalance are likely to require different forms of intervention.
+
+OUTPUT:
+{
+    "result": {
+        "usage": {
+            "text_units": 1,
+            "text_characters": 3105,
+            "features": 1
+        },
+        "language": "en",
+        "entities": [
+            {
+                "type": "AgentRule",
+                "text": "gender diversity is associated with improved decision making and problem solving and increased sales and profits",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            },
+            {
+                "type": "AgentRule",
+                "text": "the obvious potential for critical skills shortages if one gender is excluded",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            },
+            {
+                "type": "AgentRule",
+                "text": "through specific types of advertising and re-education",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            },
+            {
+                "type": "AgentRule",
+                "text": "it can be difficult to identify the best strategies for dealing with them and measuring their effect",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            },
+            {
+                "type": "AgentRule",
+                "text": "adopting particular intervention strategies predicated on incorrect assumptions might actually make matters worse rather than better",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            },
+            {
+                "type": "AgentRule",
+                "text": "cannot be prevented",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            },
+            {
+                "type": "AgentRule",
+                "text": "less able in particular areas",
+                "disambiguation": {
+                    "subtype": [
+                        "NONE"
+                    ]
+                },
+                "count": 1
+            }
+        ]
+    },
