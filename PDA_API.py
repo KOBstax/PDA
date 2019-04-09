@@ -6,19 +6,23 @@ from watson_developer_cloud.natural_language_understanding_v1 import Features, E
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-03-16',
-    ## url is optional, and defaults to the URL below. Use the correct URL for your region.
-    # url='https://gateway.watsonplatform.net/natural-language-understanding/api',
     username='9c8f0264-bdb8-485e-9bfc-2c9803eca33e',
     password='qjHv0LL5hqZo')
+    #if you have an API key instead use 
+    #iam_apikey='   '
     
-    
+#this is simply so you can enter your text into the command prompt    
 text2 = input("Enter your Description of your Diagram: \n")
 
 
 
-
+#Where the text will be analyzed
 response = natural_language_understanding.analyze(text= text2,
     features=Features(entities=EntitiesOptions(model='f4f6d1b0-80ff-4ca8-b659-9245754e10e8')))
+
+print(response)
+
+#below is how it can be saved to a json file 
 
 
 #def writeToJSONFile(path, fileName, data):
@@ -31,5 +35,5 @@ response = natural_language_understanding.analyze(text= text2,
 #data = json.dumps(response)
 
 #writeToJSONFile(path, fileName, data)
-print(response)
+
 #print(json.dumps(response.results, indent=2))
